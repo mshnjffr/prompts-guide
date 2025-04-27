@@ -290,34 +290,14 @@ While large-language models demonstrate remarkable zero-shot capabilities, they 
 **Chain-of-Thought prompting**  
 Chain-of-Thought (COT) is a Technique that enhances the reasoning capabilities of large language models (LLMs) by incorporating logical steps—or a “chain of thought”—within the prompt. Unlike direct-answer prompting, CoT guides the model to work through intermediate reasoning steps, making it more adept at solving complex tasks like math problems, commonsense reasoning, and symbolic manipulation.
 
-Prompt
+There are many more techniques such as the following 
 
+Role prompting 
+Step-back prompting
+Tree of thoughts 
+Reason and Act 
+Automatic prompt engineering 
+Meta prompting
 
-
-
-Output: 
-
-
-
-
-Prompt
-
-
-
-
-Output: 
-
-
-
-
-Prompt
-
-
-
-
-Output: 
-
-
-
-
+Probably many more! Use based on your use-cases/needs. 
 
