@@ -1,5 +1,5 @@
 # Introduction 
-Cookbook repo contains examples and tutorials to help developers understand LLM basics and build AI systems, offering copy/paste code snippets that you can easily integrate into your own projects
+Contains examples on different prompting techniques which utilises the Cody API to help developers understand prompting basics and interact with LLMs using an API. 
 
 ## About Me 
 
