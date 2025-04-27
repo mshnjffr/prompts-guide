@@ -18,7 +18,7 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-prompt = 'What is SOLID principles?'
+prompt = 'What is SOLID principles? Only provide high level summary without code examples'
 payload = {
     'model': config.model,
     'temperature': 0.1,
