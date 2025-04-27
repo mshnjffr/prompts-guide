@@ -1,0 +1,32 @@
+{# Software Engineering Concept Template #}
+{% macro concept(topic, conciseness=False) %}
+Explain the {{ topic }} concept in software engineering. Include:
+1. What is {{ topic }}?
+2. Why is it important?
+3. When should it be applied?
+{% if conciseness %}
+Be very concise and focus only on the most important points.
+{% endif %}
+{% endmacro %}
+
+{# Programming Language Template #}
+{% macro language(topic, conciseness=False) %}
+Explain the key features of the {{ topic }} programming language. Include:
+1. What is {{ topic }} primarily used for?
+2. What are its main advantages?
+3. What makes it different from other languages?
+{% if conciseness %}
+Be very concise and focus only on the most important points.
+{% endif %}
+{% endmacro %}
+
+{# Design Pattern Template #}
+{% macro pattern(topic, conciseness=False) %}
+Explain the {{ topic }} design pattern. Include:
+1. What problem does it solve?
+2. How is it implemented?
+3. When should it be used?
+{% if conciseness %}
+Be very concise and focus only on the most important points.
+{% endif %}
+{% endmacro %}
